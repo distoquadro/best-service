@@ -92,7 +92,10 @@ header {
         height: 30px;
         display: flex;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        transition: 0.3s linear; }
+      .icon ul li a:hover {
+        background: #59a5fb; }
 
 @media (max-width: 1041px) {
   .menu-header .menu li {
@@ -219,7 +222,14 @@ header {
   font-weight: 400;
   text-transform: uppercase;
   position: absolute;
-  bottom: 130px; }
+  bottom: 130px;
+  cursor: pointer;
+  transition: 0.3s linear; }
+
+.slaid-one button:hover,
+.slaid-two button:hover,
+.slaid-three button:hover {
+  background: #aca6bd66; }
 
 main {
   width: 100%; }
@@ -438,12 +448,12 @@ main {
     padding: 0 20px 20px 20px;
     transform: translateY(15px); }
   .clients h2::before {
-    content: url(../social/Shape_5.png);
+    content: url(../images/social/Shape_5.png);
     left: -36%;
     top: 4%;
     position: absolute; }
   .clients h2::after {
-    content: url(../social/Shape_5.png);
+    content: url(../images/social/Shape_5.png);
     position: absolute;
     right: -36%;
     top: 4%; }
@@ -581,7 +591,7 @@ footer {
   footer li:last-child {
     margin-bottom: 0; }
   footer h4::before {
-    content: url(../social/Shape_6.png);
+    content: url(../images/social/Shape_6.png);
     position: absolute;
     top: 4px; }
   footer .form {
@@ -620,9 +630,21 @@ footer {
         list-style-type: none;
         margin-left: 8px; }
         footer .form ul li a {
-          text-decoration: none; }
+          width: 35px;
+          height: 35px;
+          border: 2px solid #c4d8fd;
+          text-decoration: none;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 35px;
+          height: 35px;
+          transition: 0.2s linear; }
       footer .form ul li:first-child {
         margin-left: 0; }
+      footer .form ul a:hover {
+        background-color: #59a5fb; }
 
 @media (max-width: 856px) {
   footer .list {

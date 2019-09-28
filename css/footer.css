@@ -1,0 +1,113 @@
+footer {
+  width: 100%;
+  background-color: #474747;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; }
+  footer .list {
+    display: flex;
+    margin: 31px 10px 40px 0; }
+    footer .list ul {
+      padding: 0;
+      margin: 0;
+      margin-left: 66px; }
+      footer .list ul li {
+        list-style-type: none;
+        margin-bottom: 10px; }
+        footer .list ul li a {
+          text-decoration: none;
+          font: 13px/22.51px 'Be Vietnam', sans-serif;
+          color: #ffffff; }
+        footer .list ul li h4 {
+          margin: 0;
+          font: 15px/22.51px 'Be Vietnam', sans-serif;
+          color: #ffffff;
+          text-transform: uppercase;
+          position: relative; }
+  footer ul:first-child {
+    margin-left: 39px; }
+  footer li:last-child {
+    margin-bottom: 0; }
+  footer h4::before {
+    content: url(../images/social/Shape_6.png);
+    position: absolute;
+    top: 4px; }
+  footer .form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 52px; }
+    footer .form .inbtn {
+      display: flex;
+      align-items: center; }
+    footer .form input {
+      width: 155px;
+      height: 44px;
+      background: #cccccc;
+      padding: 0;
+      border: 0;
+      padding-left: 15px;
+      font: 12px 'Be Vietnam', sans-serif;
+      position: relative; }
+    footer .form input::-webkit-input-placeholder {
+      color: #4f4e4e; }
+    footer .form button {
+      width: 102px;
+      height: 43px;
+      background-color: #0072bc;
+      padding: 0;
+      border: 1px solid white;
+      font: 17px 'Be Vietnam', sans-serif;
+      color: #ffffff;
+      vertical-align: top; }
+    footer .form ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      margin-top: 41px; }
+      footer .form ul li {
+        list-style-type: none;
+        margin-left: 8px; }
+        footer .form ul li a {
+          width: 35px;
+          height: 35px;
+          border: 2px solid #c4d8fd;
+          text-decoration: none;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 35px;
+          height: 35px;
+          transition: 0.2s linear; }
+      footer .form ul li:first-child {
+        margin-left: 0; }
+      footer .form ul a:hover {
+        background-color: #59a5fb; }
+
+@media (max-width: 856px) {
+  footer .list {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 10px; }
+    footer .list ul {
+      margin: 0; }
+  footer .form {
+    width: 100%;
+    align-items: center;
+    margin-right: 0;
+    margin-bottom: 10px; } }
+
+@media (max-width: 362px) {
+  footer .list {
+    flex-direction: column;
+    align-items: center; }
+    footer .list ul {
+      width: 140px;
+      text-align: center;
+      margin-bottom: 20px; }
+    footer .list ul:last-child {
+      margin-bottom: 0; } }
+
+/*# sourceMappingURL=footer.css.map */
